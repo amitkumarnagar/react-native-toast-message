@@ -403,7 +403,9 @@ Toast.propTypes = {
   autoHide: PropTypes.bool,
   height: PropTypes.number,
   position: PropTypes.oneOf(['top', 'bottom']),
-  type: PropTypes.string
+  type: PropTypes.string,,
+  text1NumberOfLines: PropTypes.number,
+  text2NumberOfLines: PropTypes.number
 };
 
 Toast.defaultProps = {
@@ -416,7 +418,9 @@ Toast.defaultProps = {
   autoHide: true,
   height: 60,
   position: 'top',
-  type: 'success'
+  type: 'success',
+  text1NumberOfLines: 2,
+  text2NumberOfLines: 2
 };
 
 export default Toast;
