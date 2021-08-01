@@ -403,7 +403,7 @@ Toast.propTypes = {
   autoHide: PropTypes.bool,
   height: PropTypes.number,
   position: PropTypes.oneOf(['top', 'bottom']),
-  type: PropTypes.string,,
+  type: PropTypes.string,
   text1NumberOfLines: PropTypes.number,
   text2NumberOfLines: PropTypes.number
 };
