@@ -128,7 +128,7 @@ class Toast extends Component {
 
   componentDidMount() {
     const noop = {
-      remove: () => {}
+      remove: () => { }
     };
     this.keyboardDidShowListener = isIOS
       ? Keyboard.addListener('keyboardDidShow', this.keyboardDidShow)
@@ -333,7 +333,9 @@ class Toast extends Component {
           'text2',
           'hide',
           'show',
-          'onPress'
+          'onPress',
+          'text1NumberOfLines',
+          'text2NumberOfLines'
         ]
       }),
       props: { ...customProps },
