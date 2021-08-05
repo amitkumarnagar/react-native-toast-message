@@ -334,6 +334,8 @@ class Toast extends Component {
           'hide',
           'show',
           'onPress',
+          'text1Style',
+          'text2Style',
           'text1NumberOfLines',
           'text2NumberOfLines'
         ]
